@@ -25,7 +25,7 @@ def load_model(path: str):
 def get_model():
     return load_model(MODEL_PATH)
 
-diabetes_model = get_model()
+diabetes_svm_pipeline = get_model()
 
 # ----------------------------
 # Page Config & Bootstrap CSS
