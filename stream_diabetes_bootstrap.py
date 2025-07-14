@@ -97,7 +97,8 @@ st.markdown(navbar, unsafe_allow_html=True)
 # ----------------------------
 with st.container():
     st.markdown("<div class='card-custom'>", unsafe_allow_html=True)
-    st.markdown("<h3 class='mb-4'>🔢 Masukkan Data Pasien</h3>", unsafe_allow_html=True)
+    st.markdown("<h2 class='mb-4 text-center'>🔢 Masukkan Data Pasien</h2>", unsafe_allow_html=True)
+
 
     col1, col2 = st.columns(2)
 
